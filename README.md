@@ -8,6 +8,9 @@ BizzareDelay VST/AU Plug-in.
 This is a plug-in developed for BizzareContact, a psytrance project from Israel. It is now completely free. 
 https://www.facebook.com/BizzareContactMusic
 
+You can find the old compiled binaries for OSX and Windows here:
+http://www.vst4free.com/free_vst.php?plugin=Bizzare_Delay&id=1404
+
 I developed this in 2011, so it's quite old and there are many things that could be improved, however I quite like the plug-in
 and have been using it as my main delay plug-in for my music. 
 
