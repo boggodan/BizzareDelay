@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DSP_OnePoleHP.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_OnepoleLP.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_StereoDelay.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_SVF.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_Sinosc.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_TappedDelay.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="DSP_TapeDelay.cpp">
+      <Filter>DSP</Filter>
+    </ClCompile>
+    <ClCompile Include="BizzareDelay.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\WDL\IPlug\IPlug_include_in_plug_hdr.h" />
+    <ClInclude Include="..\..\WDL\IPlug\IPlug_include_in_plug_src.h" />
+    <ClInclude Include="BizzareDelay_controls.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="DSP_OnePoleHP.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_OnePoleLP.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_Sinosc.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_StereoDelay.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_SVF.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_TappedDelay.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="DSP_TapeDelay.h">
+      <Filter>DSP</Filter>
+    </ClInclude>
+    <ClInclude Include="BizzareDelay.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BizzareDelay.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DSP">
+      <UniqueIdentifier>{562685c2-dff0-48a9-9716-2464fccd3dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{f99dceec-b61a-424e-b2c6-0160f26a4f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

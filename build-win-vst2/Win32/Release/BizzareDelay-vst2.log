@@ -1,0 +1,146 @@
+﻿Build started 7/13/2014 6:20:56 PM.
+     1>Project "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\BizzareDelay-vst2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\BizzareDelay-vst2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\MyDSP /I..\..\WDL /I..\..\WDL\lice /I..\..\WDL\IPlug /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /D NDEBUG /D VST_API /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\\" /Fd"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\vc100.pdb" /Gd /TP /wd4996 /wd4250 /wd4018 /wd4267 /analyze- /errorReport:prompt BizzareDelay.cpp DSP_OnePoleHP.cpp DSP_OnepoleLP.cpp DSP_Sinosc.cpp DSP_StereoDelay.cpp DSP_TapeDelay.cpp DSP_TappedDelay.cpp
+         BizzareDelay.cpp
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(101): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(108): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(109): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(110): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(115): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(116): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(117): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(118): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(119): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(73): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(75): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(79): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(355): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(356): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(357): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(358): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(365): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(372): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(373): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(379): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(380): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(406): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(407): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(418): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(420): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(426): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(428): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(439): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(441): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(442): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(447): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(449): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(456): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(458): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(460): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(497): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(500): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(506): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(509): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(515): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(517): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(523): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(526): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(532): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(534): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(535): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(540): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(543): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(544): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(547): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(550): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(566): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(568): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(573): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(575): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(579): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(583): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(601): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(604): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(610): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(612): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(617): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(619): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(624): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(626): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(630): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(632): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(638): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(640): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(646): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(648): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(653): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(655): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(660): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(662): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(667): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(669): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(673): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(676): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(681): warning C4482: nonstandard extension used: enum 'EParams' used in qualified name
+     1>BizzareDelay.cpp(683): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(549): warning C4101: 'ptr' : unreferenced local variable
+     1>BizzareDelay.cpp(581): warning C4101: 'ptr' : unreferenced local variable
+         DSP_OnePoleHP.cpp
+     1>DSP_OnePoleHP.cpp(34): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_OnePoleHP.cpp(37): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>DSP_OnePoleHP.cpp(38): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         DSP_OnepoleLP.cpp
+     1>DSP_OnepoleLP.cpp(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_OnepoleLP.cpp(36): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         DSP_Sinosc.cpp
+         DSP_StereoDelay.cpp
+     1>DSP_StereoDelay.cpp(73): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>DSP_StereoDelay.cpp(74): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         DSP_TapeDelay.cpp
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(101): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(102): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(108): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(109): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(110): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(115): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(116): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(117): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(118): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(119): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_TapeDelay.h(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_TapeDelay.cpp(91): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>DSP_TapeDelay.cpp(92): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         DSP_TappedDelay.cpp
+     1>DSP_TappedDelay.cpp(24): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>DSP_TappedDelay.cpp(72): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>DSP_TappedDelay.cpp(113): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\WDL\IPlug\build-win\Win32\Release\\" IPlug.lib lice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.lib" /MACHINE:X86 /DLL "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\BizzareDelay.res"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\BizzareDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_TappedDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_TapeDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_OnePoleHP.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_OnepoleLP.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_Sinosc.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_StereoDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\DSP_SVF.obj"
+            Creating library D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.lib and object D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.exp
+         BizzareDelay-vst2.vcxproj -> D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.dll
+       FinalizeBuildStatus:
+         Deleting file "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\BizzareDelay-vst2.unsuccessfulbuild".
+         Touching "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Release\BizzareDelay-vst2.lastbuildstate".
+     1>Done Building Project "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\BizzareDelay-vst2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

@@ -1,0 +1,160 @@
+﻿Build started 7/11/2014 9:54:30 PM.
+     1>Project "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\BizzareDelay-vst2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\BizzareDelay-vst2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\MyDSP /I..\..\WDL /I..\..\WDL\lice /I..\..\WDL\IPlug /Zi /nologo /W3 /WX- /Ox /Oy- /D _DEBUG /D VST_API /D WIN32 /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /Gm /EHsc /MTd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\\" /Fd"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\vc100.pdb" /Gd /TP /wd4996 /wd4250 /wd4018 /wd4267 /analyze- /errorReport:prompt BizzareDelay.cpp DSP_DelayLoop.cpp
+         DSP_DelayLoop.cpp
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(59): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(62): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(166): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayL.cpp(47): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayL.cpp(49): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(33): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(57): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePole.cpp(25): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(33): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleLP.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleLP.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(75): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(81): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(111): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(194): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(205): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>DSP_DelayLoop.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>DSP_DelayLoop.cpp(235): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(236): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(242): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(243): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(245): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(254): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(255): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(256): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(260): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(272): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(273): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>DSP_DelayLoop.cpp(294): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         BizzareDelay.cpp
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(59): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(62): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(166): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayA.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayL.cpp(47): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayL.cpp(49): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(33): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(56): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_SVF.cpp(57): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePole.cpp(25): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(33): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleHP.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleLP.cpp(30): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_OnePoleLP.cpp(34): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(75): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(81): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(111): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(194): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(205): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(235): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(236): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(242): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(243): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(245): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(254): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(255): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(256): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(259): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(260): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(272): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(273): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_DelayLoop.cpp(294): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(152): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(158): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(168): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(169): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(230): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_StereoDelay.cpp(243): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\focusrite stuff\bizzare and wdl\wdl-ol\iplugexamples\bizzaredelay\DSP_Creeper.cpp(39): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(61): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(65): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(69): warning C4305: '=' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(306): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(307): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(308): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(309): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>BizzareDelay.cpp(317): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(321): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(322): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(329): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(330): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(358): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(359): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(360): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(374): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(383): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(397): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(398): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(407): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(420): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(422): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>BizzareDelay.cpp(455): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(464): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(473): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(481): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(488): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(489): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(496): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(497): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(503): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(527): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(536): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(544): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(566): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(574): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(581): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(589): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(595): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(604): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(613): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(620): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(627): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(634): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(641): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(649): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>BizzareDelay.cpp(502): warning C4101: 'ptr' : unreferenced local variable
+     1>BizzareDelay.cpp(542): warning C4101: 'ptr' : unreferenced local variable
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.dll" /INCREMENTAL /NOLOGO /LIBPATH:"..\..\WDL\IPlug\build-win\Win32\Debug\\" IPlug.lib lice.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.lib" /MACHINE:X86 /DLL "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\BizzareDelay.res"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\BizzareDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_Creeper.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_DelayA.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_DelayL.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_DelayLoop.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_OnePoleHP.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_OnepoleLP.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_Saturator.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_Sinosc.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_StereoDelay.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\DSP_SVF.obj"
+         "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\SVF.obj"
+            Creating library D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.lib and object D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.exp
+         BizzareDelay-vst2.vcxproj -> D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\bin\BizzareDelay.dll
+       FinalizeBuildStatus:
+         Deleting file "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\BizzareDelay-vst2.unsuccessfulbuild".
+         Touching "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\build-win-vst2\Win32\Debug\BizzareDelay-vst2.lastbuildstate".
+     1>Done Building Project "D:\Focusrite Stuff\Bizzare and WDL\wdl-ol\IPlugExamples\BizzareDelay\BizzareDelay-vst2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.13
