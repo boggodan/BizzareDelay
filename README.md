@@ -3,6 +3,10 @@ BizzareDelay
 
 ***Please read this file before continuing***
 
+This is a really old project that has trouble compiling with the newest IPlug-OL.
+I am currently refactoring the project, and you can find the new one here:
+https://github.com/Metabog/BizzareDelay2014
+
 BizzareDelay VST/AU Plug-in.
 
 This is a plug-in developed for BizzareContact, a psytrance project from Israel. It is now completely free. 
